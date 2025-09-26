@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "sanity dev",
     "start": "sanity start",
-    "build": "sanity build --base-path=/",
+    "build": "sanity build --base-path=/ --output-path=dist",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy",
     "preview": "npm run build && npx serve dist -p 4321"
